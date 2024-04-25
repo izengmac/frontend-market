@@ -1,7 +1,5 @@
 import React from 'react';
-import '../style_area_pc.css';
-import '../style_entrance_pc.css';
-import '../style_setting_pc.css'
+
 
 const CartEdit = () => {
     return (

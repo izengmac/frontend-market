@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 function RegistrationForm() {
+
+  const navigate = useNavigate();
   return (
     <div className="flex h-screen">
         <img
@@ -25,7 +28,10 @@ function RegistrationForm() {
            
           </div>
           <div className="mb-8">
-            <button className=" py-3 bg-black text-white rounded-md hover:bg-gray-800 transition duration-300 h-[80px] w-[419px]">Войти</button>
+            <button 
+            className=" py-3 bg-black text-white rounded-md hover:bg-gray-800 transition duration-300 h-[80px] w-[419px]"
+            onClick={ () => navigate("/Home")}
+            >Войти</button>
           </div>
           <div>
             <a href="login.html" className="tlk-form__link h-[80px] w-[469px]">Зарегистрироваться | Восстановить пароль</a>
