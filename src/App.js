@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Home from './pages_klient/Home';
 import Buy_1 from './pages_klient/Buy_1';
 import Cart_edit from './pages_klient/Cart_edit';
@@ -12,6 +12,8 @@ import Favorites from './pages_klient/Favorites';
 import PersonalDetails from './pages_klient/PersonalDetails';
 import RecoverPassword from './pages_klient/RecoverPassword';
 import Registration from './pages_klient/Registration';
+import PersonalDetailsSuppliers from './pages-suppliers/PersonalDetailsSuppliers';
+import InformationDetailsSuppliers from './pages-suppliers/InformationDetailsSupplier'
 
 import {
   createBrowserRouter,
@@ -24,7 +26,7 @@ const App = () => {
    const router = createBrowserRouter([
     {
       path: '/',
-      element: <Login/>,
+      element: <InformationDetailsSuppliers/>,
       children: [],
     },
     {

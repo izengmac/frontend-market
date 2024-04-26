@@ -34,7 +34,7 @@ function RegistrationForm() {
             >Войти</button>
           </div>
           <div>
-            <a href="login.html" className="tlk-form__link h-[80px] w-[469px]">Зарегистрироваться | Восстановить пароль</a>
+            <a href="login.html" className=" h-[80px] w-[469px]">Зарегистрироваться | Восстановить пароль</a>
           </div>
         </div>
       </div>

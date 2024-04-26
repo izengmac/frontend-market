@@ -4,13 +4,13 @@ import Header from './Header';
 const PersonalAreaMenu = () => {
     return (
         <div className="flex h-[700px] " >
-            <div className="meny_personal_area border-r-2 border-gray w-[300px] h-fll py-14 px-8">
-                <div className="a1 text-3xl text-bold mb-8" onClick={() => window.location.href='personal_area.html'}>Личный кабинет</div>
-                <div className="a2 text-xl mb-8" onClick={() => window.location.href='personal_area.html'}>Мои данные</div>
-                <div className="a2 text-xl mb-8" onClick={() => window.location.href='cart_edit.html'}>Способы оплаты</div>
-                <div className="a2_activ text-xl mb-8" onClick={() => window.location.href='purchases.html'}>Покупки</div>
-                <div className="a2 mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Доставки</div>
-                <div className="exit_pc text-xl flex flex-row" onClick={() => {}}>
+            <div className=" border-r-2 border-gray w-[300px] h-fll py-14 px-8">
+                <div className=" text-3xl text-bold mb-8" onClick={() => window.location.href='personal_area.html'}>Личный кабинет</div>
+                <div className=" text-xl mb-8" onClick={() => window.location.href='personal_area.html'}>Мои данные</div>
+                <div className=" text-xl mb-8" onClick={() => window.location.href='cart_edit.html'}>Способы оплаты</div>
+                <div className=" text-xl mb-8" onClick={() => window.location.href='purchases.html'}>Покупки</div>
+                <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Доставки</div>
+                <div className=" text-xl flex flex-row" onClick={() => {}}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2FLogout%202.svg?alt=media&token=081db559-59ee-4ef3-8a67-5d37175c148c" alt="" />
                     <a>Выйти</a>
                 </div>
@@ -22,26 +22,26 @@ const PersonalAreaMenu = () => {
 const Delivery = () => {
     return (
         <div className=' pl-[400px]'>
-            <div className="header_name_back w-75% pl-0 py-10 ">
-                <a href="personal_area.html"></a>
+            <div className=" w-75% pl-0 py-10 ">
+                <a href=""></a>
                 <a>Мои доставки</a>
             </div>
              <div className="flex w-[426px] h-[321px] border-2 border-gray rounded-lg p-4 ">
-                <div className="dilivery_block">
-                    <div className="name_edit">
+                <div className="">
+                    <div className="">
                         <a className="py-1 font-bold text-md">Заказ от 18 марта</a>
                     </div>
                     <a className="py-2">Доставка ожидается 20 марта</a>
                     <br />
                     <a className="py-4">1 товар</a>
-                    <div className="photo_name flex flex-row">
+                    <div className=" flex flex-row">
                         <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2FRectangle%2015.png?alt=media&token=e33b3196-97cb-42fe-aacc-0325129c2a3e" alt="" />
-                        <a className="name_pr pl-4 py-8">Лист гипсоволокнистый KNAUF <br /> Суперпол, 600*1200*20мм</a>
+                        <a className=" pl-4 py-8">Лист гипсоволокнистый KNAUF <br /> Суперпол, 600*1200*20мм</a>
                     </div>
-                    <div className="price py-3 font-bold">
+                    <div className=" py-3 font-bold">
                         <a>610 ₽</a>
                     </div>
-                    <div className="status font-light">
+                    <div className=" font-light">
                         <a>Заказ оплачен</a>
                     </div>
                 </div>

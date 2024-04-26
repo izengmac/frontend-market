@@ -4,23 +4,23 @@ import React from 'react';
 function PersonalArea() {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="header_pc">
+            <div className="">
                 <img src="img/logo_pc_header.svg" alt="" style={{ width: '176px', cursor: 'pointer' }} onClick={() => window.location.href='home.html'} />
                 <img src="img/cvtalog_button.svg" alt="" style={{ width: '146px', cursor: 'pointer' }} onClick={() => window.location.href='catalog.html'} />
-                <div className="header_pc_vision">
-                    <input className="sgerch_pc" type="text" placeholder="Поиск товара" />
+                <div className="">
+                    <input className="" type="text" placeholder="Поиск товара" />
                     <img src="img/serch_header.svg" alt="" style={{ cursor: 'pointer' }} />
                 </div>
-                <div className="blocs_header_pc" onClick={() => window.location.href='personal_area.html'}>
-                    <div className="bloc_header_pc">
+                <div className="" onClick={() => window.location.href='personal_area.html'}>
+                    <div className="">
                         <img src="svg/User.svg" alt="" />
                         <a style={{ fontSize: '10px', color: '#757575' }} onClick={() => window.location.href='personal_area.html'}>Кабинет</a>
                     </div>
-                    <div className="bloc_header_pc" onClick={() => window.location.href='favorites.html'}>
+                    <div className="" onClick={() => window.location.href='favorites.html'}>
                         <img src="svg/Heart.svg" alt="" />
                         <a style={{ fontSize: '10px', color: '#757575' }} onClick={() => window.location.href='favorites.html'}>Избранное</a>
                     </div>
-                    <div className="bloc_header_pc" onClick={() => window.location.href='cart.html'}>
+                    <div className="" onClick={() => window.location.href='cart.html'}>
                         <img src="svg/Cart.svg" alt="" />
                         <a style={{ fontSize: '10px', color: '#757575' }} onClick={() => window.location.href='cart.html'}>Корзина</a>
                     </div>
@@ -28,17 +28,17 @@ function PersonalArea() {
             </div>
             <div style={{ display: 'flex' }}>
                 <div>
-                    <div className="header_cart" style={{ marginRight: '40px' }}>
-                        <a className="cart_name" style={{ fontSize: '30px', fontWeight: 'bold' }}>Корзина</a>
+                    <div className="" style={{ marginRight: '40px' }}>
+                        <a className="" style={{ fontSize: '30px', fontWeight: 'bold' }}>Корзина</a>
                         <a style={{ marginLeft: '260px' }}> <img src="svg/Map Point.svg" alt="" />Пункт выдачи: г Москва, ул Октябрьская 25</a>
-                        <div className="edit_cart">
+                        <div className="">
                             <div style={{ display: 'flex' }}>
                                 <input type="checkbox" id="selectAll" /> <div style={{ fontSize: '13px', marginLeft: '5px' }}>Выбрать всё</div>
                             </div>
-                            <div className="delete_select">Удалить выбранные</div>
+                            <div className="">Удалить выбранные</div>
                         </div>
                     </div>
-                    <div className="product_bloc_cart">
+                    <div className="">
                         {/* Product details here */}
                     </div>
                 </div>
