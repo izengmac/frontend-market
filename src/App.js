@@ -14,6 +14,11 @@ import RecoverPassword from './pages_klient/RecoverPassword';
 import Registration from './pages_klient/Registration';
 import PersonalDetailsSuppliers from './pages-suppliers/PersonalDetailsSuppliers';
 import InformationDetailsSuppliers from './pages-suppliers/InformationDetailsSupplier'
+import PersonalDetailsAdmin from './pages_admin/PersonalDetailsAdmin';
+import OrderDetailsAdmin from './pages_admin/OrderDetailsAdmin';
+import OrdersAdmin from './pages_admin/OrdersAdmin';
+
+
 
 import {
   createBrowserRouter,
