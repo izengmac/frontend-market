@@ -1,0 +1,67 @@
+.news_page-bg {
+  position: absolute; /* Изменено на абсолютное позиционирование */
+  width: 100%;
+  z-index: -2;
+}
+
+.common_page_bg-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../img/about_us-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Центрирование изображения */
+  margin-top: -50px;
+  height: 660px;
+  width: 100%;
+  z-index: -1;
+}
+
+.common_page-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #476275a9;
+  height: 200px;
+}
+
+.common_page_bg-container span {
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.common_page_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.common_page_bg-blue-layer {
+  position: absolute; /* Изменено на абсолютное позиционирование */
+  width: 100%;
+  height: 100%; /* Изменено на 100% */
+  background: #476275;
+  opacity: 0.6;
+  z-index: -1; /* Поднято на уровень выше */
+}
+
+.news_page-allow {
+  width: 20px;
+  height: 40px;
+  z-index: 222;
+}
+
+.news_page-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  width: 100%;
+}
+
+.news_page-text span {
+  font-size: 18px;
+}
