@@ -101,7 +101,7 @@ const ProfileSettings = () => {
                     </div>
                   
                 </div>
-                <button className="color-button red-button w-[342px] h-[80px] bg-black text-white rounded-lg">Сохранить изменения</button>
+                <button className="red-button w-[342px] h-[80px] bg-black text-white rounded-lg">Сохранить изменения</button>
                 
             </div>
         </div>

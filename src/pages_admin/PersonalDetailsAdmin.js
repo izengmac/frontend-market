@@ -8,11 +8,7 @@ const PersonalAreaMenu = () => {
                 <div className=" text-3xl text-bold mb-8" onClick={() => window.location.href='personal_area.html'}>Личный кабинет</div>
                 <div className=" text-xl mb-8" onClick={() => window.location.href='personal_area.html'}>Мои данные</div>
                 <div className=" text-xl mb-8" onClick={() => window.location.href='cart_edit.html'}>Заказы клиентов</div>
-                <div className=" text-xl mb-8" onClick={() => window.location.href='purchases.html'}>Список поставщиков</div>
-                <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Добавить поставщика</div>
-                <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Предложения от поставщиков</div>
-                <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Контроль поставщика</div>
-                <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Прайс-лист поставщиков</div>
+                <div className=" text-xl mb-8" onClick={() => window.location.href='purchases.html'}>Прайс-листы менеджеров</div>
                 <div className=" mb-8 text-xl" onClick={() => window.location.href='delivery.html'}>Карточки товаров</div>
                 <div className=" text-xl flex flex-row" onClick={() => {}}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/swiftreplus.appspot.com/o/Compan_data%2Fcompany_logo%2FLogout%202.svg?alt=media&token=081db559-59ee-4ef3-8a67-5d37175c148c" alt="" />
@@ -42,7 +38,7 @@ const ProfileSettings = () => {
                         <div className=" ">
                             <a>Имя</a>
                         </div>
-                        <input type="name" name="name" placeholder="Иванов Иван" className="tlk-input text-center" required />
+                        <input type="name" name="name" placeholder="Иванов Иван" className=" text-center" required />
                     </div>
                     <div className=" w-[367px] h-[97px] border-2 border-gray rounded-2xl  flex justify-center items-center flex-col ml-10">
                         <div className="">
@@ -58,21 +54,21 @@ const ProfileSettings = () => {
                         </div>
                         <input type="phone" name="phone" placeholder="+7 (900) 000-00-00" className="tlk-input text-center" required />
                     </div>
-                    <div className=" w-[367px] h-[97px] border-2 border-gray rounded-2xl  flex justify-center items-center flex-col ml-10">
+                    <div className=" w-[367px] h-[97px] border-2 border-gray rounded-2xl flex justify-center items-center flex-col ml-10">
                         <div className="">
                             <a>ИНН</a>
                         </div>
-                        <input type="INN" name="INN" placeholder="0000000000" className="tlk-input text-center" required />
+                        <input type="INN" name="INN" placeholder="0000000000" className="text-center" required />
                     </div>
                 </div>
             </div>
            
             <div className="">
-                <div className=" font-medium mb-4">
+                <div className="font-medium mb-4">
                     <a>Изменить пароль</a>
                 </div>
-                <div className=" flex flex-row">
-                    <div className=" w-[195px]">
+                <div className="flex flex-row">
+                    <div className="w-[195px]">
                         <input className='w-[195px] h-[60px] border-gray border-2 rounded-lg'/>
                         <div className=" text-center">
                             <a>Старый пароль</a>
@@ -101,7 +97,7 @@ const ProfileSettings = () => {
                     </div>
                   
                 </div>
-                <button className="color-button red-button w-[342px] h-[80px] bg-black text-white rounded-lg">Сохранить изменения</button>
+                <button className="w-[342px] h-[80px] bg-black text-white rounded-lg">Сохранить изменения</button>
                 
             </div>
         </div>

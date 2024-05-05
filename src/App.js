@@ -17,7 +17,8 @@ import InformationDetailsSuppliers from './pages-suppliers/InformationDetailsSup
 import PersonalDetailsAdmin from './pages_admin/PersonalDetailsAdmin';
 import OrderDetailsAdmin from './pages_admin/OrderDetailsAdmin';
 import OrdersAdmin from './pages_admin/OrdersAdmin';
-
+import PriceListAdmin from './pages_admin/PriceListAdmin';
+import Fakelogin from './pages_admin/Fakelogin';
 
 
 import {
@@ -31,7 +32,7 @@ const App = () => {
    const router = createBrowserRouter([
     {
       path: '/',
-      element: <InformationDetailsSuppliers/>,
+      element: <Login/>,
       children: [],
     },
     {
