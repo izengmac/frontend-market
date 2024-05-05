@@ -9,8 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../img/bg-news.svg");
+  background-image: url("../../img/shoppingmall1.png");
   background-repeat: no-repeat;
+  opacity: 0.55;
   background-size: cover;
   margin-top: -50px;
   height: 200px;
@@ -77,6 +78,14 @@
 .news_container-item-img {
   min-width: 290px;
   min-height: 80px;
+}
+
+.black_btn{
+  background-color: #242424;
+  width: 351px;
+  height: 80px;
+  color: white;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1400px) {

@@ -1,11 +1,11 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import styles from "./style.module.css";
-import newsBg from "../../img/bg-news.svg"; // импортируем изображение
+import newsBg from "../../img/background_entrance.jpg"; // импортируем изображение
 import { Header } from "../header/Header";
-import newsPhoto1 from "../../img/news_photo_1.png";
-import newsPhoto2 from "../../img/news_photo_2.png";
-import allowImg from "../../img/allow_down.svg";
+import newsPhoto1 from "../../img/schet.png";
+import newsPhoto2 from "../../img/serch_header.svg";
+import allowImg from "../../img/Vector.png";
 
 export const AboutUs = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 1400 });
@@ -21,7 +21,7 @@ export const AboutUs = () => {
             <div className={styles["common_page-title"]}>
               <span>О НАС</span>
               <img
-                src={allowImg}
+                src={allowImg}                      
                 alt="allow"
                 className={styles["news_page-allow"]}
               />
@@ -51,3 +51,4 @@ export const AboutUs = () => {
     </>
   );
 };
+export default AboutUs

@@ -2,9 +2,9 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import styles from "./style.module.css";
 import { Header } from "../header/Header";
-import newsPhoto1 from "../../img/news_photo_1.png";
-import newsPhoto2 from "../../img/news_photo_2.png";
-import allowImg from "../../img/allow_down.svg";
+import newsPhoto1 from "../../img/Putin.png";
+import newsPhoto2 from "../../img/Event.png";
+import allowImg from "../../img/Vector.png";
 
 export const News = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 1400 });
@@ -47,7 +47,7 @@ export const News = () => {
                 инфраструктуры, который предусматривает, что застройщик будет
                 подстраиваться под планы муниципалитета.
               </span>
-              <button className="black_btn">Читать</button>
+              <button className={styles["black_btn"]}>Читать</button>
             </div>
             {!isSmallScreen && (
               <img
@@ -78,7 +78,7 @@ export const News = () => {
                 Цифрового делового пространства (ул. Покровка, д. 47) состоится
                 I Всероссийский конгресс по комплексному развитию территорий.
               </span>
-              <button className="black_btn">Читать</button>
+              <button className={styles["black_btn"]}>Читать</button>
             </div>
             {!isSmallScreen && (
               <img
@@ -94,3 +94,5 @@ export const News = () => {
     </div>
   );
 };
+
+export default News;

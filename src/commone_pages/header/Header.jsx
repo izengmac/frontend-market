@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./style.module.css";
-import logo from "../../img/white_logo.svg"; // импортируем изображение
+import styles from "../style.module.css";
+import logo from "../../img/Link → photo.png.png"; // импортируем изображение
 import { Link } from "react-router-dom";
 
 export const Header = () => {
@@ -13,11 +13,11 @@ export const Header = () => {
         </Link>
       </div>
       <div className={styles["header-links"]}>
-        <Link to="/about">О НАС</Link>
-        <Link to="/news">НОВОСТИ</Link>
-        <Link to="/partners">ПАРТНЕРЫ</Link>
-        <Link to="/contacts">КОНТАКТЫ</Link>
-        <Link to="/sell/park">ТОРГОВЫЙ ПАРК</Link>
+        <Link to="/AboutUs">О НАС</Link>
+        <Link to="/News">НОВОСТИ</Link>
+        <Link to="/Partners">ПАРТНЕРЫ</Link>
+        <Link to="/Contacts">КОНТАКТЫ</Link>
+        <Link to="/Park">ТОРГОВЫЙ ПАРК</Link>
       </div>
       <div className={styles["header-right"]}>
         <Link to="/Home">ВХОД В ЛК</Link>
@@ -25,3 +25,4 @@ export const Header = () => {
     </header>
   );
 };
+export default Header;

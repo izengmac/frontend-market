@@ -7,7 +7,7 @@
 .common_page_bg-container {
   display: flex;
   flex-direction: column;
-  background-image: url("../../img/about_us-bg.svg");
+  background-image: url("../../img/background_entrance.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; /* Центрирование изображения */
@@ -25,7 +25,9 @@
   justify-content: center;
   width: 100%;
   background: #476275a9;
+  opacity: 95%;
   height: 200px;
+  background-image: url("../../img/19_06_11_18_City_shopping_mall_085_3\ 1.png");
 }
 
 .common_page_bg-container span {
